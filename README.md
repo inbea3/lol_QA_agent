@@ -142,7 +142,7 @@ pip install -r requirements.txt
 
 ## 项目目录结构
 ```
-lol_wiki/
+lol_QA_agent/
 ├── main.py              # 交互入口
 ├── config/settings.py   # 环境变量与配置
 ├── inbox/               # 在此目录编写/放置 .md，再执行 import_md.py
