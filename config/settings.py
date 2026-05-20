@@ -66,6 +66,7 @@ class Settings:
     fetch_max_length: int
     wiki_search_url: str
     wiki_fallback_url: str
+    memory_max_turns: int
 
 
 settings = Settings(
@@ -114,4 +115,5 @@ settings = Settings(
         "WIKI_FALLBACK_URL",
         "https://en.wikipedia.org/w/index.php?search={query}",
     ),
+    memory_max_turns=int(_optional("MEMORY_MAX_TURNS", "10")),
 )
