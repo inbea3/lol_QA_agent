@@ -3,6 +3,7 @@
 > Lightweight LoL Assistant Agent Based on Hybrid RAG & Dual MCP Service
 
 **技术栈**：Python | Neon PostgreSQL | BM25 + 向量混合检索（RRF）| OpenAI 兼容 LLM | MCP
+
 **核心定位**：依托云端数据库搭建英雄联盟领域专属RAG知识库，结合**两类成熟线上MCP标准化工具调用**，实现游戏知识问答、对局时间推算、实时资讯检索、阵容策略分析一体化轻量化智能Agent，数据云端持久化存储。
 
 ---
